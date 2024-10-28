@@ -1,0 +1,117 @@
+{
+  "DisplayName": "Add QueueItem And Get Reference",
+  "Tooltip": "새로운 Queue Item을 추가하고 추가된 Queue Item 정보를 돌려 준다.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "QueueName",
+      "DisplayName": "Queue Name",
+      "Category": null,
+      "Tooltip": "큐 이름",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "InputDict",
+      "DisplayName": "Input Dict",
+      "Category": null,
+      "Tooltip": "큐 입력 데이터 (SpecificContent)",
+      "Placeholder": null,
+      "Widget": "Dictionary",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FolderFullName",
+      "DisplayName": "Folder Full Name",
+      "Category": null,
+      "Tooltip": "폴더 전체 이름 ",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Reference",
+      "DisplayName": "Reference",
+      "Category": null,
+      "Tooltip": "Queue Item 참조 값 ",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ClientID",
+      "DisplayName": "Client ID",
+      "Category": null,
+      "Tooltip": "인증을 위한 Client ID (AppID) ( External Application 에서 등록 필요)",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ClientSecret",
+      "DisplayName": "Client Secret",
+      "Category": null,
+      "Tooltip": "인증을 위한 Client Secret(키) ( External Application 에서 등록 필요)",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "QueueItemId",
+      "DisplayName": "QueueItemId",
+      "Category": null,
+      "Tooltip": "신규로 생성된 Queue Item Id",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ErrorCode",
+      "DisplayName": "Error Code",
+      "Category": null,
+      "Tooltip": "오류 코드 ",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ErrorMessage",
+      "DisplayName": "Error Message",
+      "Category": null,
+      "Tooltip": "오류 메세지 ",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

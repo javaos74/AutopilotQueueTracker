@@ -1,0 +1,62 @@
+{
+  "name": "UiPathQueueItemTracker",
+  "projectId": "637880e9-1762-4b72-886d-04e10144fc67",
+  "description": "QueueItem Tracker 라이브러리",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "24.10.6",
+    "UiPath.WebAPI.Activities": "1.21.1"
+  },
+  "webServices": [
+    {
+      "namespace": "UiPathWebApi740",
+      "serviceDocument": "Services\\UiPathWebApi740.json",
+      "webDocumentUri": "https://cloud.uipath.com/uipathkor/UiPath/orchestrator_/swagger/v18.0/swagger.json",
+      "uniqueReference": "xhSRzOswQxdcvba2ky36G8qqvafxjsaf9BAxOBR5Fd8="
+    }
+  ],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.5.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "Authenticator.xaml",
+        "test3.xaml",
+        "Test2.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Portable"
+}

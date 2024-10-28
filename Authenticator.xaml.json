@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Authenticator",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "Endpoint",
+      "DisplayName": "Endpoint",
+      "Category": null,
+      "Tooltip": "Endpoint ",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ClientID",
+      "DisplayName": "ClientID",
+      "Category": null,
+      "Tooltip": "External Application 설정에서 Client ID ( App ID)",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ClientSecret",
+      "DisplayName": "ClientSecret",
+      "Category": null,
+      "Tooltip": "External Application 에서의 Client Secret ",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "BearerToken",
+      "DisplayName": "BearerToken",
+      "Category": null,
+      "Tooltip": "Authorization Bearer 토큰",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
