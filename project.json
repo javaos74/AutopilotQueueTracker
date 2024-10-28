@@ -44,8 +44,8 @@
       "includeOriginalXaml": false,
       "privateWorkflows": [
         "Authenticator.xaml",
-        "test3.xaml",
-        "Test2.xaml"
+        "Tests\\test3.xaml",
+        "Tests\\Test2.xaml"
       ]
     },
     "processOptions": {
