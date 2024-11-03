@@ -24,7 +24,7 @@
       "Tooltip": "인증을 위한 Client Secret(키) ( External Application 에서 등록 필요)",
       "Placeholder": null,
       "Widget": null,
-      "IsRequired": false,
+      "IsRequired": true,
       "IsPrincipal": true,
       "ArgumentType": 0,
       "DataSourceItems": null

@@ -5,7 +5,11 @@
         <RequiredArgumentAttribute />
       </x:Property.Attributes>
     </x:Property>
-    <x:Property sap2010:Annotation.AnnotationText="인증을 위한 Client Secret(키) ( External Application 에서 등록 필요)" Name="ClientSecret" Type="InArgument(ss:SecureString)" />
+    <x:Property sap2010:Annotation.AnnotationText="인증을 위한 Client Secret(키) ( External Application 에서 등록 필요)" Name="ClientSecret" Type="InArgument(ss:SecureString)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
     <x:Property sap2010:Annotation.AnnotationText="큐 이름" Name="QueueName" Type="InArgument(x:String)">
       <x:Property.Attributes>
         <RequiredArgumentAttribute />
